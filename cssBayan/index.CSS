@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+}
+
+.h {
+    width: 70%;
+    height: .2rem;
+    background-color: #ece5e5;
+    border: none;
+    position: center;
+}
+
+
+h1 {
+    font-weight: bold;
+    margin-left: 20rem;
+}
+
+.header {
+    position: relative;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    color: blue;
+}
+
+
+.image {
+    position: center;
+    display: none;
+    margin-left: 25rem;
+}
+
+.header:hover > .image {
+    display: block;
+    transition: 0.7s;
+    cursor: pointer; 
+} 
+
+.header:hover {
+    color: black;
+    cursor: pointer;
+    
+} 
